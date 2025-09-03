@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joker's Million</title>
+    <title>Casino Millonario</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
@@ -22,7 +22,7 @@
 
         .hero {
             height: 100vh;
-            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('jokermillion.jpg') no-repeat center center/cover;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('casinomillonario_mobile.jpg') no-repeat center center/cover;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -98,7 +98,7 @@
 
         @media (max-width: 900px) {
             .hero {
-                background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('jokermillion_mobile.jpg') no-repeat center center/cover;
+                background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('casinomillonario_mobile.jpg') no-repeat center center/cover;
             }
         }
     </style>
@@ -127,18 +127,23 @@
 </head>
 <body>
     <section class="hero">
-        <h1>¡Juga y Gana con Joker's Million!</h1>
+        <h1>¡Casino Millonario!</h1>
         <h2>Super Premios para vos, sin límites de pagos y cobros inmediatos.</h2>
         <p>Para crear tu cuenta, envíanos un WhatsApp haciendo click en el botón de abajo</p>
-        <a href="https://api.whatsapp.com/send?phone=xxxxxxxxxxxxx&text=¡Buen4s!%20Me%20gust4rí4%20cre4r%20un%20usu4rio.%20Mi%20nombre%20es:" 
-           class="cta-button" target="_blank" onclick="fbq('trackCustom', 'WhatsAppClick')" >
-            <i class='fab fa-whatsapp'></i> ¡Crea tu usuario!
+        <a 
+        href="https://api.whatsapp.com/send?phone=XXXXXXXXXXXX&amp;text=%C2%A1Buen4s!%20Me%20gust4r%C3%AD4%20cre4r%20un%20usu4rio.%20Mi%20nombre%20es%3A"
+          class="cta-button"
+          target="_blank"
+          rel="noopener noreferrer"
+          onclick="try{fbq('trackCustom','WhatsAppClick')}catch(e){}"
+        >
+          <i class="fab fa-whatsapp"></i> ¡Crea tu usuario!
         </a>
     </section>
     <section class="info">
         <h2>Beneficios Exclusivos</h2>
-        <p>Recibe bonos de bienvenida y promociones especiales.</p>
-        <p>Mínimo de carga: $2000</p>
+        <p>Recibí bonos de bienvenida y promociones especiales.</p>
+        <p>Mínimo de carga: $3000</p>
     </section>
 </body>
 </html>
